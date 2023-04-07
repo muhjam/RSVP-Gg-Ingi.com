@@ -27,6 +27,10 @@ body {
   width: 240px;
 }
 
+.slide {
+  margin-top: -50px;
+}
+
 .card .card-body .card-title {
   color: rgb(134, 101, 50);
   font-weight: 400;
@@ -110,6 +114,11 @@ footer a:hover {
 
 footer a i {
   font-size: 50px;
+}
+@media (max-width: 780px) {
+  .slide {
+    margin-top: -80px;
+  }
 }
 /* Home */
 /* RSVP */
