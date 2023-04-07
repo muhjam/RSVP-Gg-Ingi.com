@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form RSVP | Gg Ingi</title>
+		<meta
+      name="keywords"
+      content="Halal Bihalal, Keluarga Besar Gg Ingi, Keluarga Besar Cimahi, Lebaran "
+    />
+    <meta
+      name="description"
+      content="Undangan RSVP Halal Bihalal Keluarga Besar Gg Ingi"
+    />
+    <meta name="author" content="JamJam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="assets/icon/icon.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-light mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/img/ramadan.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <a class="navbar-brand" href="index.html">Halal Bihalal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" href="#">RSVP</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav -->
+    <!-- form -->
+    <section>
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Daftar RSVP</h2>
+            <div class="row">
+              <div class="col-sm-6 col-12">
+                <div
+                  class="alert alert-warning alert-dismissible fade show my-alert d-none"
+                  role="alert"
+                >
+                  <strong>Mohon maaf</strong> pesan anda gagal terkirim, coba
+                  ulang lagi.
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <form name="daftar-rsvp-form">
+                  <div class="mb-3">
+                    <label for="Nama" class="form-label">Nama</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="Nama"
+                      name="Nama"
+                      required
+                    />
+                    <div class="form-text">Masukan nama lengkap anda.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Nomor_WhatsApp" class="form-label"
+                      >Nomor WhatsApp</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="Nomor_WhatsApp"
+                      name="Nomor_WhatsApp"
+                      required
+                    />
+                    <div class="form-text">Masukan nomor whatsapp anda.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Keluarga_Besar" class="form-label"
+                      >Dari keluarga besar?</label
+                    >
+                    <select
+                      id="Keluarga_Besar"
+                      class="form-select"
+                      aria-label="Default select example"
+                      placeholder="Pilih Keluarga Besar"
+                      name="Keluarga_Besar"
+                      required
+                    >
+                      <option value="">Pilih Keluarga Besar</option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Obrien Satjakusumah
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Karlia Musa
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Ruhiyat Satjakusumah
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Kartina Mustafa
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Enus Yasin
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Aning Satjakusumah
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Uyut Satjakusumah
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Abdullah Satjakusumah
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Pupung Adnan
+                      </option>
+                      <option value="Kel. Besar Bp ">
+                        Kel. Besar Bp Bob Mustafa
+                      </option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Anggota_keluarga" class="form-label"
+                      >Akan hadir dengan berapa anggota keluarga? (Selain
+                      Anda)</label
+                    >
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="Anggota_keluarga"
+                      name="Anggota_Keluarga"
+                      value="0"
+                      min="0"
+                      max="10"
+                      required
+                    />
+                  </div>
+
+                  <button type="submit" class="btn btn-dark btn-send">
+                    Kirim
+                  </button>
+                  <button
+                    class="btn btn-dark btn-loading d-none"
+                    type="button"
+                    disabled
+                  >
+                    <span
+                      class="spinner-border spinner-border-sm"
+                      role="status"
+                      aria-hidden="true"
+                    ></span>
+                    Loading...
+                  </button>
+                </form>
+              </div>
+              <div class="col-6 d-none d-sm-block">
+                <img class="img-left-side" src="assets/img/form.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form -->
+    <!-- footer -->
+    <footer class="mt-5">
+      <a href="#">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+      <a href="#"> Back to top </a>
+    </footer>
+    <!-- footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
