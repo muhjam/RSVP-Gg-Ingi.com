@@ -1,5 +1,5 @@
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbzQPrDzbpHns0jeQ0WbOpsaYlDv12Fql6MNnT-X7qF73F3zQ1xUoxe-z9c8RJzklrzW/exec";
+  "https://script.google.com/macros/s/AKfycbw28B-URRSv-KDbTf2CxICe8QRuRaexVbXy-N2Ck9aUVLcMNBfbRrxgJyIJRMP8sfOO/exec";
 const form = document.forms["daftar-rsvp-form"];
 const btnSend = document.querySelector(".btn-send");
 const btnLoading = document.querySelector(".btn-loading");
